@@ -13,12 +13,13 @@
         .top{
             height: 20%;
             width: 100%;
-            background-color: #ccc;
+            background-color: rgb(255,139,138);
             position: relative;
         }
         h2{
             margin: 0;
             position: relative;
+            font-size: 28px;
             top:40%;
             left: 5%;
         }
@@ -33,7 +34,7 @@
         .left{
             height: 80%;
             width: 20%;
-            background-color: #008c8c;
+            background-color: #ccc;
             float: left;
         }
         ul,li{

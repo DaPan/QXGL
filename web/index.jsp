@@ -3,14 +3,24 @@
   <head>
     <title>登录</title>
     <style type="text/css">
+      body{
+        background-color: rgb(255,139,138);
+      }
+      .content{
+        float: left;
+        margin: 150px auto;
+        font-weight: bold;
+        font-size: 36px;
+      }
       .loginBox{
         width: 400px;
-        background-color: #ccffcc;
+        background-color: lightpink;
         padding: 10px 0;
-        margin: 100px 0;
+        margin: 100px;
+
         border: 2px solid #cccccc;
         border-radius: 20px;
-
+        float: right;
       }
       .loginBox tr{
         height: 45px;
@@ -33,6 +43,9 @@
     </style>
   </head>
   <body>
+    <div class="content">
+      <h2>欢迎登录大潘人员信息管理系统</h2>
+    </div>
     <div class="loginBox">
       <form action="login.do" method="post">
         <h3 align="center">用户登录</h3>
